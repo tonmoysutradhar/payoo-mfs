@@ -12,7 +12,6 @@ s-3: verify the pin number
 document.getElementById("btn-add-money").addEventListener("click", function (event){
     // prevent page reload after form submit
     event.preventDefault();
-    console.log("adddddddddd");
 
     // step 2: get money to be added to the account balance
     const addMoneyInput = document.getElementById("input-add-money").value ;
